@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
 
     <!--Normalize-->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
 
     <!--Favicon-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
     <!--Custom styles-->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header section-->
@@ -27,24 +29,35 @@
       <div class="header-container container">
         <nav class="header-nav list">
           <a class="header-logo link" href="./index.html"
-            >Web<span class="name-header">Studio</span></a>
+            >Web<span class="name-header">Studio</span></a
+          >
           <ul class="menu-list list">
             <li class="menu">
-              <a class="header-nav-link current link" href="./index.html">Studio</a>
+              <a class="header-nav-link current link" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li class="menu">
-              <a class="header-nav-link link" href="./portfolio.html">Portfolio</a>
+              <a class="header-nav-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
-            <li class="menu"><a class="header-nav-link link" href="">Contacts</a></li>
+            <li class="menu">
+              <a class="header-nav-link link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="page">
           <ul class="page-list list">
             <li class="mailto">
-              <a class="address link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="address link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="tel">
-              <a class="address link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="address link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
         </address>
@@ -56,7 +69,9 @@
       <section class="backgr-section title-section" id="backgr">
         <div class="section-container container">
           <h1 class="title">Effective Solutions for Your Business</h1>
-          <button class="button-link" type="button">Order Service</button>
+          <button class="button-link" data-modal-open type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="facts-container">
@@ -77,7 +92,7 @@
             </li>
             <li class="advantages">
               <div class="icon-container">
-                <svg class="second-section-icon"  width="64" height="64">
+                <svg class="second-section-icon" width="64" height="64">
                   <use href="./images/icon.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -123,21 +138,24 @@
                 src="./images/box1.jpg"
                 alt="A man works at a computer"
                 width="360"
-                class="card">
+                class="card"
+              />
             </li>
             <li class="item-three">
               <img
                 src="./images/rectangle71.jpg"
                 alt="Man works with the phone"
                 width="360"
-                class="card">
+                class="card"
+              />
             </li>
             <li class="item-three">
               <img
                 src="./images/box3.jpg"
                 alt="Man works with the phone"
                 width="360"
-                class="card">
+                class="card"
+              />
             </li>
           </ul>
         </div>
@@ -151,7 +169,8 @@
                 src="./images/team/mark_guerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
-                class="card">
+                class="card"
+              />
               <div class="employee">
                 <h3 class="fact-title">Mark Guerrero</h3>
                 <p class="fact-descr">Product Designer</p>
@@ -162,7 +181,8 @@
                       href="https://instagram.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="Instagram icon">
+                      aria-label="Instagram icon"
+                    >
                       <svg class="socials-icon" width="16" height="16">
                         <use href="./images/icon.svg#icon-instagram"></use>
                       </svg>
@@ -216,7 +236,7 @@
                 alt="Tom Ford"
                 width="264"
                 class="card"
-              >
+              />
               <div class="employee">
                 <h3 class="fact-title">Tom Ford</h3>
                 <p class="fact-descr">Frontend Developer</p>
@@ -282,7 +302,7 @@
                 alt="Camila Garcia"
                 width="264"
                 class="card"
-              >
+              />
               <div class="employee">
                 <h3 class="fact-title">Camila Garcia</h3>
                 <p class="fact-descr">Marketing</p>
@@ -348,7 +368,7 @@
                 alt="Daniel Wilson"
                 width="264"
                 class="card"
-              >
+              />
               <div class="employee">
                 <h3 class="fact-title">Daniel Wilson</h3>
                 <p class="fact-descr">UI Designer</p>
@@ -416,57 +436,81 @@
           <h2 class="title-secondtf">Customers</h2>
           <ul class="clients list">
             <li class="client-list">
-              <a class="client-card link" href=""  target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Instagram icon">
-              <svg class="client-icon" width="104" height="56">
-                <use href="./images/icon.svg#icon-logo"></use>
-              </svg>
+              <a
+                class="client-card link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
+              >
+                <svg class="client-icon" width="104" height="56">
+                  <use href="./images/icon.svg#icon-logo"></use>
+                </svg>
               </a>
             </li>
             <li class="client-list">
-              <a class="client-card link" href=""  target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Instagram icon">
-              <svg class="client-icon" width="104" height="56">
-                <use href="./images/icon.svg#icon-logo-1"></use>
-              </svg>
+              <a
+                class="client-card link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
+              >
+                <svg class="client-icon" width="104" height="56">
+                  <use href="./images/icon.svg#icon-logo-1"></use>
+                </svg>
               </a>
             </li>
             <li class="client-list">
-              <a class="client-card link" href=""  target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Instagram icon">
-              <svg class="client-icon" width="104" height="56">
-                <use href="./images/icon.svg#icon-logo-2"></use>
-              </svg>
+              <a
+                class="client-card link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
+              >
+                <svg class="client-icon" width="104" height="56">
+                  <use href="./images/icon.svg#icon-logo-2"></use>
+                </svg>
               </a>
             </li>
             <li class="client-list">
-              <a class="client-card link" href=""  target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Instagram icon">
-              <svg class="client-icon" width="104" height="56">
-                <use href="./images/icon.svg#icon-logo-3"></use>
-              </svg>
+              <a
+                class="client-card link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
+              >
+                <svg class="client-icon" width="104" height="56">
+                  <use href="./images/icon.svg#icon-logo-3"></use>
+                </svg>
               </a>
             </li>
             <li class="client-list">
-                <a class="client-card link" href=""  target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Instagram icon">
-              <svg class="client-icon" width="104" height="56">
-                <use href="./images/icon.svg#icon-logo-4"></use>
-              </svg>
+              <a
+                class="client-card link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
+              >
+                <svg class="client-icon" width="104" height="56">
+                  <use href="./images/icon.svg#icon-logo-4"></use>
+                </svg>
               </a>
             </li>
             <li class="client-list">
-              <a class="client-card link" href=""  target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Instagram icon">
-              <svg class="client-icon" width="104" height="56">
-                <use href="./images/icon.svg#icon-logo-5"></use>
-              </svg>
+              <a
+                class="client-card link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
+              >
+                <svg class="client-icon" width="104" height="56">
+                  <use href="./images/icon.svg#icon-logo-5"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -490,50 +534,54 @@
           <p class="parag-social">Social media</p>
           <ul class="list-item-social list">
             <li class="icons-list list">
-              <a  class="socials-link socials-link-footer link"
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Instagram icon"
+              <a
+                class="socials-link socials-link-footer link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
               >
                 <svg class="socials-icon" width="24" height="24">
-                    <use href="./images/icon.svg#icon-instagram"></use>
+                  <use href="./images/icon.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="icons-list list">
-              <a  class="socials-link socials-link-footer link"
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Twitter icon"
+              <a
+                class="socials-link socials-link-footer link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter icon"
               >
                 <svg class="socials-icon" width="24" height="24">
-                    <use href="./images/icon.svg#icon-twitter"></use>
+                  <use href="./images/icon.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="icons-list list">
-              <a  class="socials-link socials-link-footer link"
-                  href="https://facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Facebook icon"
+              <a
+                class="socials-link socials-link-footer link"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook icon"
               >
                 <svg class="socials-icon" width="24" height="24">
-                    <use href="./images/icon.svg#icon-facebook"></use>
+                  <use href="./images/icon.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="icons-list list">
-              <a class="socials-link socials-link-footer link"
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Linkedin icon"
+              <a
+                class="socials-link socials-link-footer link"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Linkedin icon"
               >
                 <svg class="socials-icon" width="24" height="24">
-                    <use href="./images/icon.svg#icon-linkedin"></use>
+                  <use href="./images/icon.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
@@ -541,17 +589,18 @@
         </div>
       </div>
     </footer>
-    
+
     <!--Modal window-->
-    <div class="overlay">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button">
-          <svg class="modal-icon" width="20" height="20">
-            <use href=""></use>
+        <button class="modal-btn" data-modal-close type="button">
+          <svg class="modal-icon" width="15" height="15">
+            <use href="./images/icon.svg#icon-close-black"></use>
           </svg>
         </button>
       </div>
     </div>
-  </body>
 
+    <script src="./modal.js"></script>
+  </body>
 </html>
