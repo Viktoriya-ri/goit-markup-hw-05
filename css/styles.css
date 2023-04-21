@@ -19,7 +19,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1,71;
   letter-spacing: 0.03em;
   color: var(--color-slate);
   background-color: var(--color-white);
@@ -532,10 +532,9 @@ img {
 
 .card-link {
   display: block;
-  transition-property:  box-shadow;
+  transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .ptf-box {
   position: relative;
@@ -551,7 +550,7 @@ img {
   transform: translateY(100%);
   background-color: var(--color-iris);
   backdrop-filter: blur(3px);
-  
+
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -565,7 +564,6 @@ img {
   padding: 40px 32px;
   color: var(--color-cloud);
   mix-blend-mode: normal;
-
 }
 .card {
   background-color: var(--color-white);
@@ -599,7 +597,7 @@ img {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-  transition: opacity  var(--anim-fast), visibility var(--anim-fast);
+  transition: opacity var(--anim-fast), visibility var(--anim-fast);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -615,7 +613,7 @@ img {
   opacity: 1;
   min-width: 408px;
   min-height: 584px;
- 
+
   background-color: var(--color-dairy);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
