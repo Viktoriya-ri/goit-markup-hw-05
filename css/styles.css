@@ -294,7 +294,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .socials-list {
